@@ -1,888 +1,1464 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Trydo - Creative Agency Wordpress Theme</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Roboto:400,700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Conference Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/conference/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="css/colors.php%3Fcolor=222.css" type="text/css" />
-	<link rel="stylesheet" href="demos/conference/conference.css" type="text/css" />
-	<!-- / -->
-
-	<!-- Document Title
-	============================================= -->
-	<title>Conference | Canvas</title>
+    <!-- CSS
+	============================================ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
+    <link rel="stylesheet" href="assets/css/vendor/feature.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="responsive-sticky-header transparent-header dark header-size-sm" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="me-lg-0">
-							<a href="demo-conference.html#" data-scrollto="#slider" class="standard-logo" data-dark-logo="demos/conference/images/logo-dark.png"><img src="demos/conference/images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-conference.html#" data-scrollto="#slider" class="retina-logo" data-dark-logo="demos/conference/images/logo-dark@2x.png"><img src="demos/conference/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-
-							<ul class="menu-container not-dark one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
-								<li class="menu-item"><a class="menu-link" href="demo-conference.html#" data-href="#section-about"><div>About</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-conference.html#" data-href="#section-speakers"><div>Speakers</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-conference.html#" data-href="#section-schedule"><div>Schedule</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-conference.html#" data-href="#section-tickets"><div>Tickets</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-conference.html#" data-href="#section-sponsors"><div>Sponsors</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-conference.html#" data-href="#section-location"><div>Location</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-
-							<ul class="menu-container header-button">
-								<li class="menu-item">
-									<a href="demo-conference.html#section-tickets" class="button button-effect m-0" data-scrollto="#section-tickets">Buy Tickets</a>
-								</li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Hero/Slider
-		============================================= -->
-		<section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('demos/conference/images/hero-2.jpg') no-repeat center center / cover;">
-			<div class="slider-inner">
-
-				<div class="vertical-middle">
-					<div class="container dark py-5 py-md-0">
-						<div class="row justify-content-between mt-5 col-mb-50">
-							<div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
-								<span class="gradient-underline h4">SemiColonWeb 2021</span>
-								<h2 class="fw-bold display-2 mb-0">Canvas Development Conference.</h2>
-							</div>
-							<div class="col-lg-6 d-flex align-items-lg-end flex-column parallax text-start text-lg-end mb-5 mb-lg-0" data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
-								<div class="mt-auto">
-									<h2 class="mb-2 gradient-text">March 17-19, 2021</h2>
-									<h4 class="fw-normal">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</h4>
-									<a href="demo-conference.html#section-tickets" class="button button-xxlarge button-white button-gradient m-0" data-scrollto="#section-tickets">Get Tickets Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section><!-- #Slider end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content" style="background-color: #000;">
-			<div class="content-wrap pt-0" style="overflow: visible;">
-
-				<!-- Section About
-				============================================= -->
-				<div id="section-about" class="section page-section bg-transparent pt-0 clearfix">
-
-					<div class="container clearfix">
-
-						<div class="mb-5 dark">
-							<span class="display-4 fw-bold gradient-underline font-primary">About The Conference</span>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="row justify-content-around dark">
-							<div class="col-md-6">
-								<h4 class="font-body ls1 text-uppercase">About Meetup</h4>
-								<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, vel omnis repellendus mollitia, explicabo, maiores quisquam numquam quia reiciendis sit, accusantium atque ex animi perspiciatis ab odit earum assumenda aliquid.</p>
-								<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, vel omnis repellendus mollitia, explicabo, maiores quisquam numquam quia reiciendis sit, accusantium atque ex animi perspiciatis ab odit earum assumenda aliquid.</p>
-								<div class="row mt-5">
-									<div class="col-6 col-sm-3">
-										<div class="counter gradient-text"><span data-from="0" data-to="3" data-refresh-interval="1" data-speed="400"></span></div>
-										<h5 class="font-body">Day Event</h5>
-									</div>
-
-									<div class="col-6 col-sm-3">
-										<div class="counter gradient-text"><span data-from="1" data-to="11" data-refresh-interval="2" data-speed="600"></span>+</div>
-										<h5 class="font-body">Speakers</h5>
-									</div>
-
-									<div class="col-6 col-sm-3">
-										<div class="counter gradient-text"><span data-from="1" data-to="23" data-refresh-interval="3" data-speed="1200"></span>+</div>
-										<h5 class="font-body">Sponsors</h5>
-									</div>
-
-									<div class="col-6 col-sm-3">
-										<div class="counter gradient-text"><span data-from="100" data-to="500" data-refresh-interval="50" data-speed="1500"></span>+</div>
-										<h5 class="font-body">Participants</h5>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-5">
-								<div class="about-img position-relative">
-									<div class="my-3 my-lg-0"><div class="gradient-bg"><img src="demos/conference/images/about/2.jpg" alt="About Image"></div></div>
-									<div data-0="top: 160px" data-end="top: 120px"><div class="gradient-bg"><img src="demos/conference/images/about/1.jpg" alt="About Image"></div></div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div><!-- #section-about end -->
-
-				<div class="clear"></div>
-
-				<!-- Section Speakers
-				============================================= -->
-				<div id="section-speakers" class="section page-section bg-transparent pt-0 topmargin-lg clearfix">
-					<div class="container">
-						<div class="mb-5 dark d-flex flex-wrap justify-content-between align-items-center">
-							<span class="display-4 fw-bold gradient-underline mb-0">Speakers</span>
-							<a href="demo-conference.html#" class="button button-effect m-0">Show All Speakers</a>
-						</div>
-						<div class="row mx-auto dark"  style="max-width: 1000px;">
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/1.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Gunther Beard</h4><span>Software Designer</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/2.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Desmond Eagle </h4><span>Canvas Business</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/3.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Will Barrow</h4><span>Cloud Management</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/4.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Pelican Steve</h4><span>Community</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/5.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Gunther Beard</h4><span>Software Designer</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/6.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Desmond Eagle </h4><span>Canvas Business</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/7.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Will Barrow</h4><span>Cloud Management</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team col-lg-4 col-sm-6 mb-5">
-								<div class="team-image">
-									<img src="demos/conference/images/speakers/8.jpg" alt="John Doe">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Piff Jenkins</h4><span>Community</span></div>
-								</div>
-							</a>
-
-							<a href="demo-conference.html#" class="team joinspeaker col-lg-4 col-sm-6 mb-5">
-								<div class="team-image gradient-bg">
-									<img src="demos/conference/images/speakers/blank.jpg" alt="John Doe">
-									<i class="icon-line-circle-plus gradient-text"></i>
-								</div>
-								<div class="team-desc" style="z-index: 3;">
-									<div class="team-title"><h4 class="gradient-text">Join as a Speaker</h4></div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div><!-- #section-speaker end -->
-
-				<div class="clear"></div>
-
-				<!-- Section Schedule
-				============================================= -->
-				<div id="section-schedule" class="section page-section bg-transparent pt-0 topmargin clearix">
-					<div class="container">
-						<div class="mb-5 dark d-flex justify-content-between align-items-center">
-							<span class="display-4 fw-bold gradient-underline mb-0">Schedule</span>
-						</div>
-
-						<div class="schedule-wrap mx-auto rounded" style="max-width: 1000px;">
-							<div class="tabs tabs-bb mb-0 clearfix" id="tab-9">
-
-								<ul class="tab-nav d-flex clearfix">
-									<li class="flex-fill"><a href="demo-conference.html#tabs-1">17th <span class="d-none d-md-inline-block">March</span></a></li>
-									<li class="flex-fill"><a href="demo-conference.html#tabs-2">18th <span class="d-none d-md-inline-block">March</span></a></li>
-									<li class="flex-fill"><a href="demo-conference.html#tabs-3">19th <span class="d-none d-md-inline-block">March</span></a></li>
-								</ul>
-
-								<div class="tab-container mt-5">
-									<div class="tab-content clearfix" id="tabs-1">
-										<dl class="row dark mb-0">
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">8:30 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Registration And Breakfast</div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">9.00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Opening Remarks And Keynote<small>- Piff Jenkins</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">10.00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Web Accessible Designs<small>- Will Barrow</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">11:30 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Delicious Lunch<small>- Cafeteria</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">12.30 pm</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Canvas Rest API<small>- Desmond Eagle</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">2.00 pm</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Building Communities<small>- Jack Steve</small></div>
-											</dd>
-
-										</dl>
-									</div>
-									<div class="tab-content clearfix" id="tabs-2">
-										<dl class="row dark mb-0">
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">9:00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Why To Attend Event</div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">10.00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Surprise Event<small>- Gunther Beard</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">10.00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Hiring The Right Way in Ecosystem<small>- Will Barrow</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">11:30 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Delicious Lunch<small>- Cafeteria</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">12.45 pm</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Panel Discussion: Future of Canvas<small>- Will Barrow</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">2.30 pm</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Why Should I Choose Customer Support<small>- Indigo Violet</small></div>
-											</dd>
-
-										</dl>
-									</div>
-									<div class="tab-content clearfix" id="tabs-3">
-										<dl class="row dark mb-0">
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">9:00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">20 Effective Ways To Build A Better Customer Experience</div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">10.00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">How to Prepare for your Hacked website?<small>- Pelican Steve</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">10.00 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Inbound Marketing Strategies for Entrepreneurs<small>-  Max Conversion</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">11:30 am</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">Delicious Lunch<small>- Cafeteria</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">2.00 pm</div></dt>
-											<dd class="col-sm-9">
-												<div class="schedule-desc">FeedBack, Quiz, Interaction &amp; Gifts<small>- Chauffina Carr, Guy Mann</small></div>
-											</dd>
-
-											<dt class="col-sm-3"><div class="schedule-time font-primary">7.00 pm</div></dt>
-											<dd class="col-sm-9">
-												<div class="row justify-content-between align-items-center">
-													<div class="col-sm-9">
-														<div class="schedule-desc">After Party<small>- J W Marriot</small></div>
-													</div>
-													<div class="col-sm-3">
-														<a href="https://maps.google.com" target="_blank" class="button button-small button-black button-dark bg-dark mt-2 mt-sm-0 float-none float-sm-right">View Map</a>
-													</div>
-												</div>
-											</dd>
-
-										</dl>
-									</div>
-
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div><!-- #section-scedule end -->
-
-				<div class="clear"></div>
-
-				<!-- Section Tickets
-				============================================= -->
-				<div id="section-tickets" class="section page-section bg-transparent pt-0 clearfix">
-					<div class="container">
-						<div class="mb-5 dark d-flex justify-content-between align-items-center">
-							<span class="display-4 fw-bold gradient-underline mb-0">Tickets</span>
-						</div>
-					</div>
-
-
-					<div class="position-relative">
-
-						<div class="container">
-							<div class="row pricing align-items-center">
-
-								<div class="col-lg-3 col-sm-6">
-									<div class="pricing-box disabled text-center">
-										<div class="pricing-title title-sm">
-											<h3 class="nott ls0">Early Bird(Full Event)</h3>
-											<span>Valid until 28th Feb</span>
-										</div>
-										<div class="pricing-price early-bird-pricing font-primary fw-bold">
-											<span class="price-unit">&dollar;</span>39
-										</div>
-										<div class="pricing-persons">
-											<select class="required form-select" name="early-bird-person" id="early-bird-person">
-												<option value="1" selected>1 Person</option>
-												<option value="2">2 Persons</option>
-												<option value="3">3 Persons</option>
-												<option value="4">4 Persons</option>
-												<option value="5">5 Persons</option>
-												<option value="6">6 Persons</option>
-												<option value="7">7 Persons</option>
-												<option value="8">8 Persons</option>
-											</select>
-										</div>
-										<div class="pricing-action px-5">
-											<a href="demo-conference.html#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-3 col-sm-6 mt-4 mt-sm-0">
-									<div class="pricing-box text-center">
-										<div class="pricing-title title-sm">
-											<h3 class="nott ls0">1 Day Pass</h3>
-											<span class="nott">Valid until 19th March</span>
-										</div>
-										<div class="pricing-price 1-day-pricing font-primary fw-bold">
-											<span class="price-unit">&dollar;</span>29
-										</div>
-										<div class="pricing-persons">
-											<select class="required form-select" name="1-day-pricing-person" id="1-day-pricing-person">
-												<option value="1" selected>1 Person</option>
-												<option value="2">2 Persons</option>
-												<option value="3">3 Persons</option>
-												<option value="4">4 Persons</option>
-												<option value="5">5 Persons</option>
-												<option value="6">6 Persons</option>
-												<option value="7">7 Persons</option>
-												<option value="8">8 Persons</option>
-											</select>
-										</div>
-										<div class="pricing-action px-5">
-											<a href="demo-conference.html#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
-									<div class="pricing-box text-center">
-										<div class="pricing-title title-sm">
-											<h3 class="nott ls0">2 Days Pass</h3>
-											<span class="nott">Valid until 17th March</span>
-										</div>
-										<div class="pricing-price 2-day-pricing font-primary fw-bold">
-											<span class="price-unit">&dollar;</span>49
-										</div>
-										<div class="pricing-persons">
-											<select class="required form-select" name="2-day-pricing-person" id="2-day-pricing-person">
-												<option value="1" selected>1 Person</option>
-												<option value="2">2 Persons</option>
-												<option value="3">3 Persons</option>
-												<option value="4">4 Persons</option>
-												<option value="5">5 Persons</option>
-												<option value="6">6 Persons</option>
-												<option value="7">7 Persons</option>
-												<option value="8">8 Persons</option>
-											</select>
-										</div>
-										<div class="pricing-action px-5">
-											<a href="demo-conference.html#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
-									<div class="pricing-box text-center">
-										<div class="pricing-title title-sm">
-											<h3 class="nott ls0">Full Event</h3>
-											<span class="nott">Valid until 17th March</span>
-										</div>
-										<div class="pricing-price full-pricing font-primary fw-bold">
-											<span class="price-unit">&dollar;</span>69
-										</div>
-										<div class="pricing-persons">
-											<select class="required form-select" name="full-pricing-person" id="full-pricing-person">
-												<option value="1" selected>1 Person</option>
-												<option value="2">2 Persons</option>
-												<option value="3">3 Persons</option>
-												<option value="4">4 Persons</option>
-												<option value="5">5 Persons</option>
-												<option value="6">6 Persons</option>
-												<option value="7">7 Persons</option>
-												<option value="8">8 Persons</option>
-											</select>
-										</div>
-										<div class="pricing-action px-5">
-											<a href="demo-conference.html#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-						<div class="dotted-bg" style="background: url('demos/conference/images/dotted-bg.svg') repeat center center / contain; min-height: 75%"></div>
-					</div>
-
-					<div class="container topmargin-lg">
-						<div class="mx-auto dark center" style="max-width: 850px">
-							<h3 class="display-4 gradient-text">Still Getting Confused?</h3>
-							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nesciunt sint voluptatibus quibusdam veritatis quos dolorum quasi minus, rerum? Officia explicabo hic porro voluptatem ducimus dolor, dolore et. Magni, quidem?</p>
-							<a href="demo-conference.html#" class="button button-xxlarge button-white button-light button-gradient-hover mt-4">Contact Us</a>
-						</div>
-					</div>
-				</div><!-- #section-tickets end -->
-
-				<div class="clear"></div>
-
-				<!-- Section Sponsors
-				============================================= -->
-				<div id="section-sponsors" class="section page-section bg-transparent pt-0 topmargin-lg clearfix">
-					<div class="container">
-						<div class="mb-5 dark d-flex justify-content-between align-items-center">
-							<span class="display-4 fw-bold gradient-underline mb-0">Sponsors</span>
-						</div>
-
-						<div class="mx-auto schedule-wrap center dark rounded shadow-lg" style="max-width: 1050px; background-color: #000">
-							<h4 class="font-body mb-5">Gold Sponsors</h4>
-							<div class="d-flex flex-wrap align-items-center">
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/cnn.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/github.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/google.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/paypal.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/vimeo.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/slack.svg" alt="Brands"></a></div>
-							</div>
-							<div class="line"></div>
-							<h4 class="font-body mb-5">Silver Sponsors</h4>
-							<div class="d-flex flex-wrap align-items-center">
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/linkedin.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/nat-geo.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/jetblue.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/zillow.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/amazon.svg" alt="Brands"></a></div>
-							</div>
-							<div class="line"></div>
-							<h4 class="font-body mb-5">Partners</h4>
-							<div class="d-flex flex-wrap align-items-center">
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/ps.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/skype.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/jetblue.svg" alt="Brands"></a></div>
-								<div class="flex-fill p-3"><a href="demo-conference.html#"><img src="demos/conference/images/sponcors/netflix.svg" alt="Brands"></a></div>
-							</div>
-							<div class="line"></div>
-							<h3 class="gradient-text">Calling all Sponsors!!! Help us to make Our Event a Blast!</h3>
-							<p class="mx-auto text-muted" style="max-width: 600px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nesciunt sint voluptatibus quibusdam veritatis quos dolorum quasi minus, rerum? Officia explicabo hic porro voluptatem ducimus dolor, dolore et. Magni, quidem?</p>
-							<a href="demo-conference.html#" class="button button-xlarge button-white button-gradient mt-4">Sponsor Us?</a>
-						</div>
-					</div>
-					<div class="dotted-bg" style="background: url('demos/conference/images/dotted-bg.svg') repeat center center / contain; min-height: 25%; top: 90%; right: 0; left: auto; width: 50%"></div>
-				</div><!-- #section-Sponsors end -->
-
-				<div class="clear"></div>
-
-				<!-- Section Location
-				============================================= -->
-				<div id="section-location" class="section page-section bg-transparent p-0 mb-0 clearfix" style=" overflow: visible">
-					<div class="container">
-						<div class="mb-5 dark d-flex justify-content-between align-items-center">
-							<span class="display-4 fw-bold gradient-underline mb-0">Venue</span>
-						</div>
-
-					</div>
-
-					<div class="position-relative">
-						<div class="w-100 parallax vh-100" style="top: 0; min-height: 400px" data-top-top="transform: translateY(100px);" data-top-center="transform: translateY(0px);">
-							<div class="gmap h-100" data-latitude="37.62580987" data-longitude="-122.06495354" data-maptype="ROADMAP" data-zoom="13" data-scrollwheel="false" data-markers='[{ latitude:37.62580987, longitude:-122.06495354, html: "795 Folsom Ave, CA", icon: { image: "demos/conference/images/map-marker.svg", iconsize: [44, 44], iconanchor: [14,44] } }]' data-styles='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#666666"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":10}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]'></div>
-						</div>
-						<div class="container-bg">
-							<div class="container">
-								<div class="row justify-content-between dark">
-									<div class="col-md-4 mb-4">
-										<h3 class="gradient-underline d-inline-flex mb-5">Gallery</h3>
-										<div class="masonry-thumbs grid-container grid-3" data-lightbox="gallery">
-											<a class="grid-item" href="demos/conference/images/venue/full/1.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/1.jpg" alt="Gallery Thumb 1"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/2.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/2.jpg" alt="Gallery Thumb 2"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/3.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/3.jpg" alt="Gallery Thumb 3"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/4.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/4.jpg" alt="Gallery Thumb 4"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/5.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/5.jpg" alt="Gallery Thumb 5"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/6.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/6.jpg" alt="Gallery Thumb 6"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/7.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/7.jpg" alt="Gallery Thumb 7"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/8.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/8.jpg" alt="Gallery Thumb 9"></a>
-											<a class="grid-item" href="demos/conference/images/venue/full/9.jpg" data-lightbox="gallery-item"><img src="demos/conference/images/venue/9.jpg" alt="Gallery Thumb 10"></a>
-										</div>
-									</div>
-									<div class="col-md-3 mb-4">
-										<h3 class="gradient-underline d-inline-flex mb-5">Our Address</h3>
-										<h4 class="fw-normal">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</h4>
-										<h4 class="mb-2"> +111-222-33-44</h4>
-										<h4 class="mb-2">+222-333-44-55</h4>
-										<h4 class="mb-2">no-reply@canvas.com</h4>
-									</div>
-									<div class="col-md-3 mb-4">
-										<h3 class="gradient-underline d-inline-flex mb-5">Follow Us</h3>
-										<div class="d-block">
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-facebook" title="Facebook">
-												<i class="icon-facebook"></i>
-												<i class="icon-facebook"></i>
-											</a>
-
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-delicious" title="Delicious">
-												<i class="icon-delicious"></i>
-												<i class="icon-delicious"></i>
-											</a>
-
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-paypal" title="Paypal">
-												<i class="icon-paypal"></i>
-												<i class="icon-paypal"></i>
-											</a>
-
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-flattr" title="Flattr">
-												<i class="icon-flattr"></i>
-												<i class="icon-flattr"></i>
-											</a>
-
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-android" title="Android">
-												<i class="icon-android"></i>
-												<i class="icon-android"></i>
-											</a>
-
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-smashmag" title="Smashmag">
-												<i class="icon-smashmag"></i>
-												<i class="icon-smashmag"></i>
-											</a>
-
-											<a href="demo-conference.html#" class="social-icon si-colored mb-3 si-rounded si-gplus" title="Google Plus">
-												<i class="icon-gplus"></i>
-												<i class="icon-gplus"></i>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- #section-location end -->
-
-				<div class="clear"></div>
-
-				<!-- Upcoming Events
-				============================================= -->
-				<div class="section bg-transparent m-0 clearfix">
-
-					<div class="container">
-						<div class="mx-auto dark center" style="max-width: 850px">
-							<span class="display-4 fw-bold gradient-underline">Upcoming Related Events</span>
-							<p class="lead text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nesciunt sint voluptatibus quibusdam veritatis quos dolorum quasi minus, rerum? Officia explicabo hic porro voluptatem ducimus dolor, dolore et. Magni, quidem?</p>
-						</div>
-						<div class="clear"></div>
-						<div class="row align-items-stretch mt-3 clearfix">
-							<div class="col-md-4 mb-3">
-								<a href="demo-conference.html#" class="card dark" style="background-color: #FB6567">
-									<div class="card-body">
-										<h4 class="mb-4 font-body fw-normal h5">Opening Remarks And Keynote</h4>
-										<div class="d-flex flex-wrap justify-content-between">
-											<h5 class="font-body mb-0 text-uppercase ls1">- 31st April, 2021</h5>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-4 mb-3">
-								<a href="demo-conference.html#" class="card dark" style="background-color: #F3317A">
-									<div class="card-body">
-										<h4 class="mb-4 font-body fw-normal h5">Hiring The Right Way in Ecosystem</h4>
-										<h5 class="font-body mb-0 text-uppercase ls1">- 2nd May, 2021</h5>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-4 mb-3">
-								<a href="demo-conference.html#" class="card dark" style="background-color: #EC008B">
-									<div class="card-body">
-										<h4 class="mb-4 font-body fw-normal h5">Why Should I Choose Support</h4>
-										<h5 class="font-body mb-0 text-uppercase ls1">- 3rd May, 2021</h5>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div><!-- #Related Events end -->
-
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark" style="background: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.03)); border-top-color: #222">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-					<div class="row clearfix">
-
-						<div class="col-lg-4">
-
-							<div class="widget clearfix">
-								<div class="row clearfix">
-									<div class="col-lg-8 bottommargin-sm clearfix" style="color:#888;">
-										<img src="demos/app-landing/images/logo-dark@2x.png" alt="Canvas Logo" style="display: block;" height="100">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, consequatur facere molestiae iusto atque.</p>
-
-										<a href="demo-conference.html#" class="social-icon si-small si-borderless si-colored si-rounded si-facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-
-										<a href="demo-conference.html#" class="social-icon si-small si-borderless si-colored si-rounded si-twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-
-										<a href="demo-conference.html#" class="social-icon si-small si-borderless si-colored si-rounded si-gplus">
-											<i class="icon-gplus"></i>
-											<i class="icon-gplus"></i>
-										</a>
-
-										<a href="demo-conference.html#" class="social-icon si-small si-borderless si-colored si-rounded si-pinterest">
-											<i class="icon-pinterest"></i>
-											<i class="icon-pinterest"></i>
-										</a>
-
-										<a href="demo-conference.html#" class="social-icon si-small si-borderless si-colored si-rounded si-vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-lg-8">
-							<div class="row clearfix">
-
-								<div class="col-lg-3 bottommargin-sm">
-									<div class="widget widget_links app_landing_widget_link clearfix">
-										<ul class="pt-3">
-											<li><a href="demo-conference.html">Visiting Place</a></li>
-											<li><a href="demo-conference.html">Nearby Hotels</a></li>
-											<li><a href="demo-conference.html">Public Transports</a></li>
-											<li><a href="demo-conference.html">Weather Info</a></li>
-											<li><a href="demo-conference.html">Food Cost</a></li>
-											<li><a href="demo-conference.html">Accommodation </a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-lg-3 bottommargin-sm">
-									<div class="widget widget_links app_landing_widget_link clearfix">
-										<ul class="pt-3">
-											<li><a href="demo-conference.html">Code Of Conduct</a></li>
-											<li><a href="demo-conference.html">Speakers</a></li>
-											<li><a href="demo-conference.html">Sponsors</a></li>
-											<li><a href="demo-conference.html">FAQs</a></li>
-											<li><a href="demo-conference.html">Volunteers</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-lg-6 bottommargin-sm">
-									<div id="twitter" class="widget widget-twitter-feed pt-3">
-
-										<ul class="iconlist twitter-feed twitter-feed-avatar" data-username="envato" data-count="2">
-											<li></li>
-										</ul>
-
-										<a href="demo-conference.html#" class="button button-gradient text-white float-end">Follow Us on Twitter</a>
-
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-transparent pt-0">
-				<div class="container clearfix">
-
-					<div class="w-100 text-center text-md-start">
-						Copyrights &copy; 2021 All Rights Reserved by Canvas Inc.<br>
-						<div class="copyright-links"><a href="demo-conference.html#">Terms of Use</a> / <a href="demo-conference.html#">Privacy Policy</a></div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyAO2BYvn4xyrdisvP8feA4AS_PGZFxJDp4"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
-
-		jQuery(document).ready( function(){
-
-			// Ticket Price Changed Script
-			var elementEarlyBird = $("#early-bird-person"),
-				element1Day = $("#1-day-pricing-person"),
-				element2Day = $("#2-day-pricing-person"),
-				elementFull = $("#full-pricing-person");
-
-			elementEarlyBird.on( 'change', function(){
-				pricingEarlyBird = $(this).prop('value');
-				jQuery('.early-bird-pricing').html( '$'+ (pricingEarlyBird * 39) );
-			});
-
-			element1Day.on( 'change', function(){
-				pricing1day = $(this).prop('value');
-				jQuery('.1-day-pricing').html( '$'+ (pricing1day * 29) );
-			});
-
-			element2Day.on( 'change', function(){
-				pricing2Day = $(this).prop('value');
-				jQuery('.2-day-pricing').html( '$'+ (pricing2Day * 49) );
-			});
-
-			elementFull.on( 'change', function(){
-				pricingFull = $(this).prop('value');
-				jQuery('.full-pricing').html( '$'+ (pricingFull * 69) );
-			});
-
-		});
-
-	</script>
+<body>
+    <div class="main-page">
+        <!-- Start Page Wrapper  -->
+        <main class="page-wrapper">
+            <!-- Start Banner Area  -->
+            <div class="prv-banner-wrapper"
+                style="background-image: url(http://rainbowit.net/splash/wp/trydo/&quot;assets/images/preview/preview-bg.jpg&quot;);">
+                <div class="container-fluid">
+                    <div class="plr--120 plr_sm--20 plr_md--20 plr_lg--20">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-5">
+                                <div class="inner">
+                                    <div class="logo text-left">
+                                        <a href="index.html">
+                                            <img src="assets/images/logo/logo-all-dark.png" alt="Trydo Images">
+                                        </a>
+                                    </div>
+                                    <p class="title">Welcome to Trydo WordPress Creative Agency, Portfolio &
+                                        Multi-Purpose Theme. It's build with Elementor Page Builder.</p>
+                                    <div class="purshase-btn">
+                                        <a href="https://themeforest.net/checkout/from_item/28449333?license=regular" target="_blank" class="rn-button-style--2 btn_solid">Buy Now</a>
+                                        <a href="index.html#demo"
+                                            class="rn-button-style--2 btn_border btn_border--dark smoth-animation">View
+                                            Demos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Banner Area  -->
+
+            <!-- Start Empty Area  -->
+            <div class="fullscreen empty-div gradient-overlay"></div>
+            <!-- End Empty Area  -->
+
+            <!-- Start Main Demo Area  -->
+            <div class="main-wrapper" id="demo">
+
+                <!-- Start Home Demo  -->
+                <div class="home-demo-area bg_color--1 ptb--120">
+                    <div class="wrapper plr--120 rn-masonary-wrapper">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-center pb--30">
+                                    <h2 class="theme-gradient">Home Demo</h2>
+                                    <p>Choose one of styles or cutomize easily your site following your ideas. <br> More
+                                        demos are coming soon.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb--20 mt--20">
+                            <div class="messonry-button pv-tab-button text-center">
+                                <button data-filter="*" class="is-checked"><span class="filter-text">All
+                                        Demo</span></button>
+                                <button data-filter=".agency"><span class="filter-text">Agency</span></button>
+                                <button data-filter=".corporate"><span class="filter-text">Corporate</span></button>
+                                <button data-filter=".portfolioItem"><span class="filter-text">Portfolio</span></button>
+                                <button data-filter=".landing"><span class="filter-text">Landing</span></button>
+                                <button data-filter=".hot"><span class="filter-text">Hot</span></button>
+                            </div>
+                        </div>
+                        <div class="mesonry-list grid-metro3">
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/">
+                                    <img src="assets/images/preview/demo-home.png" alt="Preview Images">
+                                    <h3 class="title">Main Demo</h3>
+                                    <p class="info">Our Theme is perfect for creative agency.All agencies use this
+                                        theme for all purpose.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/main-demo-dark/">
+                                    <img src="assets/images/preview/dark-main-demo.png" alt="Preview Images">
+                                    <h3 class="title">Main Demo Dark</h3>
+                                    <p class="info">Our Theme is perfect for creative agency.All agencies use this
+                                        Theme for all purpose.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/creative-agency/">
+                                    <img src="assets/images/preview/creative-agency.png" alt="Preview Images">
+                                    <h3 class="title">Creative Agency</h3>
+                                    <p class="info">Its a modern design with all realted features for creative agencies
+                                        company.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 portfolioItem hot">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/personal-portfolio/">
+                                    <img src="assets/images/preview/personal-portfolio.png" alt="Preview Images">
+                                    <h3 class="title">Personal Portfolio</h3>
+                                    <p class="info">Its a personal portfolio Theme thats can be used your Personal
+                                        useses, Freelancer, Designer, and Developer etc.</p>
+                                    <div class="label-new"><span>Hot</span></div>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency corporate hot">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/corporate-business/">
+                                    <img src="assets/images/preview/corporate-business.png" alt="Preview Images">
+                                    <h3 class="title">Corporate Business</h3>
+                                    <p class="info">Corporate Business is build for new or any startup business company.
+                                        It has available all section for corporate business agency company and others
+                                        business purpose.</p>
+                                    <div class="label-new"><span>Hot</span></div>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 portfolioItem landing hot">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/personal-portfolio-02/">
+                                    <img src="assets/images/preview/dark-personal-portfolio-landing.png"
+                                        alt="Preview Images">
+                                    <h3 class="title">Personal Portfolio 02 — One Page</h3>
+                                    <p class="info">It comes with landing page feature. This Theme you can be used
+                                        for your Personal useses, Freelancer, Designer, and Developer etc.</p>
+                                    <div class="label-new"><span>Hot</span></div>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 corporate">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/business/">
+                                    <img src="assets/images/preview/business.png" alt="Preview Images">
+                                    <h3 class="title">Business</h3>
+                                    <p class="info">It has available all kinds of features for a Business corporate
+                                        website.You can be use it for your Business website.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency landing">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/creative-agency-landing/">
+                                    <img src="assets/images/preview/creative-landing.png" alt="Preview Images">
+                                    <h3 class="title">Creative Agency Landing</h3>
+                                    <p class="info">Added creative agency 02 page.When you need creative agency page you
+                                        can be use it for your creative agency, Digital agency page page.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 portfolioItem hot">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/designer-portfolio/">
+                                    <img src="assets/images/preview/designer-portfolio.png" alt="Preview Images">
+                                    <h3 class="title">Designer Portfolio</h3>
+                                    <p class="info">Designer POrtfolio is a portfolio website demo for all personal
+                                        portfolio website. A designer present their works by the designer portfolio home
+                                        demo..</p>
+                                    <div class="label-new"><span>Hot</span></div>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency corporate landing">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/home-particles/">
+                                    <img src="assets/images/preview/homeparticles.png" alt="Preview Images">
+                                    <h3 class="title">Home Particle</h3>
+                                    <p class="info">Home particle has most feature is particles animation.It can be used
+                                        for your creative agency, Business agency, Digital agency and so on, And it has
+                                        Landing page added next update.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency corporate portfolioItem">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/creative-portfolio/">
+                                    <img src="assets/images/preview/creative-portfolio.png" alt="Preview Images">
+                                    <h3 class="title">Creative Portfolio</h3>
+                                    <p class="info">Creative Portfolio is a awesome portfolio website demo. By using
+                                        this you can be build a website for your portfolio</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 portfolioItem">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/minimal-portfolio/">
+                                    <img src="assets/images/preview/portfolio-home.png" alt="Preview Images">
+                                    <h3 class="title">Minimal Portfolio</h3>
+                                    <p class="info">Its a minimal portfolio Theme. You can be showing your portfolio
+                                        perfectly by using this Theme.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/digital-agency/">
+                                    <img src="assets/images/preview/digital-agency.png" alt="Preview Images">
+                                    <h3 class="title">Digital Agency</h3>
+                                    <p class="info">A Digital Agency Theme is a nice slider animation, faster loading
+                                        and all features available for agencies.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 corporate">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/startup-agency-demo/">
+                                    <img src="assets/images/preview/startup.png" alt="Preview Images">
+                                    <h3 class="title">Startup</h3>
+                                    <p class="info">A modern and nice design Theme that can be all startup agencies
+                                        for all kinds of startup purpose.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 portfolioItem landing">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/personal-portfolio-landing/">
+                                    <img src="assets/images/preview/personal-portfolio-landing.png"
+                                        alt="Preview Images">
+                                    <h3 class="title">Personal Portfolio — One Page</h3>
+                                    <p class="info">It comes with landing page feature. This Theme you can be used
+                                        for your Personal useses, Freelancer, Designer, and Developer etc.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency corporate">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/studio-agency/">
+                                    <img src="assets/images/preview/studio-agency.png" alt="Preview Images">
+                                    <h3 class="title">Studio Agency</h3>
+                                    <p class="info">It has been used background video and vedio popup.You can use it for
+                                        all kinds of agencies studio.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency corporate">
+                                <a target="_blank" href="http://rainbowit.net/themes/trydo/parallax-home/">
+                                    <img src="assets/images/preview/paralax.png" alt="Preview Images">
+                                    <h3 class="title">Paralax Home</h3>
+                                    <p class="info">Its a nice and awesome paralax background image design.You can be
+                                        use it for Business, Corporate, Degital Agency and other so on.</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+
+                            <!-- Start Single Demo  -->
+                            <div class="single-demo masonry_item portfolio-33-33 agency corporate">
+                                <a href="index.html#">
+                                    <img src="assets/images/preview/coming-soon.png" alt="Preview Images">
+                                    <h3 class="title">Coming Soon 01</h3>
+                                    <p class="info">More Feature are Coming Soon</p>
+                                </a>
+                            </div>
+                            <!-- End Single Demo  -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End Home Demo  -->
+
+                <!-- Start Inner Page Demo  -->
+                <div class="home-demo-area bg_color--3 pt--120 pb--130 pt_md--80 pb_md--90 pt_sm--80 pb_sm--90">
+                    <div class="wrapper plr--120">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-center md--30 mb_sm--5">
+                                    <h2 class="theme-gradient">Inner Pages</h2>
+                                    <p>Choose one of styles or cutomize easily your site following your ideas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row--0">
+                            <div class="col-lg-12">
+                                <div class="inner-demo-activation rn-slick-dot slick-gutter-15">
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank" href="http://rainbowit.net/themes/trydo/about/">
+                                                <img src="assets/images/preview/about.png" alt="Preview Images">
+                                                <h3 class="title">About</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank" href="http://rainbowit.net/themes/trydo/blog-list/">
+                                                <img src="assets/images/preview/blog-list.png" alt="Preview Images">
+                                                <h3 class="title">Blog List</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank"
+                                                href="http://rainbowit.net/themes/trydo/have-you-heard-agency-is-your-best-bet-to-grow/">
+                                                <img src="assets/images/preview/blog-details.png" alt="Preview Images">
+                                                <h3 class="title">Blog Details</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank"
+                                                href="http://rainbowit.net/themes/trydo/portfolio-style/">
+                                                <img src="assets/images/preview/portfolio.png" alt="Preview Images">
+                                                <h3 class="title">Portfolio</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank"
+                                                href="http://rainbowit.net/themes/trydo/portfolio/getting-tickets-to-the-next-show/">
+                                                <img src="assets/images/preview/portfolio-details.png"
+                                                    alt="Preview Images">
+                                                <h3 class="title">Portfolio Details</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank"
+                                                href="http://rainbowit.net/themes/trydo/pages/our-servies/">
+                                                <img src="assets/images/preview/service.png" alt="Preview Images">
+                                                <h3 class="title">Service</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank"
+                                                href="http://rainbowit.net/themes/trydo/service-details/">
+                                                <img src="assets/images/preview/service-details.png"
+                                                    alt="Preview Images">
+                                                <h3 class="title">Service Details</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                    <!-- Start Single Demo  -->
+                                    <div class="single-inner-demo">
+                                        <div class="single-demo">
+                                            <a target="_blank" href="http://rainbowit.net/themes/trydo/contact/">
+                                                <img src="assets/images/preview/contact.png" alt="Preview Images">
+                                                <h3 class="title">Contact Us</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Demo  -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Inner Page Demo  -->
+
+                <!-- Start Feature Area  -->
+                <div class="prv-feature service-area bg_color--7 ptb--120">
+                    <div class="wrapper plr--120 plr_lg--30 plr_sm--30 plr_md--30">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-center text-white pb--30 pb_sm--0 pb_md--0">
+                                    <h2><span class="theme-gradient">Awesome Feature</span></h2>
+                                    <p>Trydo are designed for everyone. It doesn’t matter if you’re a WordPress <br>Guru
+                                        or just a complete beginner.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i class="fab fa-elementor"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Elementor Page Builder</h3>
+                                            <p class="subtitle">Elementor is the best FREE WordPress Website Builder,
+                                                Create beautiful sites and pages using a drag and drop interface.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="settings"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Power Full Theme Options</h3>
+                                            <p class="subtitle">Redux Framework has been built from the ground up to
+                                                be the most flexible framework around.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="mouse-pointer"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Full demo with One Click Installation</h3>
+                                            <p class="subtitle">Do more with just one click install demo or update
+                                                your theme.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="edit-3"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Gutenberg Capabilities</h3>
+                                            <p class="subtitle">Gutenberg is a codename for a whole new paradigm in
+                                                WordPress site building and publishing, that aims to revolutionize...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="smartphone"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Responsive Ready</h3>
+                                            <p class="subtitle">Trydo site will always looks cool and great on any
+                                                mobile device or bvrowsers.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="code"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Well Documented Codes</h3>
+                                            <p class="subtitle">The Trydo code is awesome well documented code. And
+                                                Its customization is very easily</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="sliders"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Unlimited Colors</h3>
+                                            <p class="subtitle">Trydo comes with live color customizer. Just select your
+                                                color and enjoy the magic.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="rotate-cw"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Fast Loading Speed</h3>
+                                            <p class="subtitle">Trydo is faster loading speed.Trydo create your
+                                                theme so much faster</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="command"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">SEO & SMM Friendly</h3>
+                                            <p class="subtitle">Trydo can made it ranked first by search engines. Trydo
+                                                optimized for search engines according to the latest SEO trends and
+                                                guidelines</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="type"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Google Font</h3>
+                                            <p class="subtitle">A collection of Google fonts are integrated with the
+                                                theme. You can use any of them that goes with your branding.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="repeat"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Easy Lifetime Update</h3>
+                                            <p class="subtitle">All users can receive updates for free and for life.
+                                                Even manual update only takes one click for you.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                            <!-- Start Single Feature  -->
+                            <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                                <div class="single-service service__style--4">
+                                    <div class="service">
+                                        <div class="icon">
+                                            <i data-feather="headphones"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Fast & Friendly Support</h3>
+                                            <p class="subtitle">We are provide 24 hours support for all clients.You
+                                                can purchase without hesitation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature  -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End Feature Area  -->
+
+                <!-- Start Elementor Area  -->
+                <div class="elementor-area-presentation pt--120">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-center text-white">
+                                    <img src="assets/images/preview/elementor-text.png" alt="Elementor Images">
+                                    <p class="subtitle">Join 5,000,000+ Professionals Who Build Better Sites With
+                                        Elementor</p>
+                                    <h2 class="title">The World’s Leading WordPress <br /> Page Builder.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="content">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/preview/elementor-options.png" alt="Elementor Images">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Elementor Area  -->
+
+
+                <!-- Start Responsive Area  -->
+                <div class="responsive-device-area bg_image bg_image--2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-xl-6 offset-xl-6">
+                                <div class="inner">
+                                    <div class="section-title">
+                                        <h2 class="title theme-gradient">Trydo works perfectly on any device.</h2>
+                                        <p>Trydo site works seamlessly on any device without a single compromise, will
+                                            always looks cool and great on any
+                                            mobile device or browsers. Its easily adapt your content for mobile, tablet
+                                            and so on.</p>
+                                    </div>
+                                    <div class="responsive-layout-mokup">
+                                        <div class="mokup-list">
+                                            <div class="icon">
+                                                <img src="assets/images/icons/phone.png" alt="icon Images">
+                                            </div>
+                                            <h6>Phone</h6>
+                                        </div>
+                                        <div class="mokup-list">
+                                            <div class="icon">
+                                                <img src="assets/images/icons/tablet.png" alt="icon Images">
+                                            </div>
+                                            <h6>Tablet</h6>
+                                        </div>
+                                        <div class="mokup-list">
+                                            <div class="icon">
+                                                <img src="assets/images/icons/desktop.png" alt="icon Images">
+                                            </div>
+                                            <h6>Desktop</h6>
+                                        </div>
+                                    </div>
+                                    <p class="subtitle">- Separate Options for Each Screen Size</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Responsive Area  -->
+
+
+                <!-- Start Gtmatrix Score Area  -->
+                <div class="gt-matrik-score-area pb--120 bg_color--1">
+                    <div class="container">
+                        <div class="row row--35">
+                            <div class="col-lg-6 col-md-12 col-12">
+                                <div class="inner">
+                                    <h2 class="title">Ultra <br />Performance</h2>
+                                    <p>Trydo Page speed is so faster and takes byte times for load each page.
+                                        It's is very easy to use, loads faster and provides better performance for your
+                                        wedsite. </p>
+
+                                        <a target="_blank" href="https://gtmetrix.com/reports/rainbowit.net/daXqpJRW" class=" rbt-button  rn-button-style--2 btn_solid btn-size-sm btn-theme mt--50"><span class="button-text">View GTmetrix Report</span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12 mt_md--40 mt_sm--40">
+                                <div class="progressbar_inner">
+                                    <div class="progress-wrapper">
+                                        <h3 class="heading">Gtmetrix Scores</h3>
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="rn-progress-charts progress-bar--3">
+                                            <h6 class="heading heading-h6">PageSpeed</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s"
+                                                    data-wow-delay=".3s" role="progressbar"
+                                                    style="width: 99%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
+                                                    aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"><span
+                                                        class="percent-label">99%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="rn-progress-charts progress-bar--3 mt--40">
+                                            <h6 class="heading heading-h6">YSlow</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s"
+                                                    data-wow-delay=".5s" role="progressbar"
+                                                    style="width: 92%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
+                                                    aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"><span
+                                                        class="percent-label">92%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="rn-progress-charts progress-bar--3 mt--40">
+                                            <h6 class="heading heading-h6">1.9s Fully Loaded</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s"
+                                                    data-wow-delay=".8s" role="progressbar"
+                                                    style="width: 100%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
+                                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span
+                                                        class="percent-label">100%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shape-images">
+                        <img src="assets/images/icons/wave-icon.png" alt="Wave Images">
+                    </div>
+                </div>
+                <!-- End Gtmatrix Score Area  -->
+
+
+                <!-- Start Trydo Gallery  -->
+                <div class="rn-gallery-area bg_image--4 pt--120 pb--70">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center text-white">
+                                <h2 class="title theme-gradient">Say Hello To <br />Trydo Elements</h2>
+                                <p>Total design freedom for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt--50 mt_sm--20">
+                        <div class="col-lg-12">
+                            <div class="thumbnai">
+                                <img src="assets/images/bg/gallery.png" alt="Gallery Images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Trydo Gallery  -->
+
+                <!-- Start Trydo Elementor Item  -->
+                <div class="elementor-gallery-item ptb--120 bg_color--8">
+                    <div class="plr--100 plr_md--30 plr_sm--30">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-center text-white mb--20">
+                                    <h2 class="title theme-gradient">Why Trydo?</h2>
+                                    <p>Enjoy the most powerful features available on the market!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row elementor-mesonry-wrapper">
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-01.png" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-02.png" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-03.png" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                	<a href="https://gtmetrix.com/reports/rainbowit.net/daXqpJRW" target="_blank">
+                                		<img src="assets/images/elementor/elementor-04.jpg" alt="Images">
+                                	</a>
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-05.jpg" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-06.png" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-07.jpg" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-08.jpg" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-09.png" alt="Images">
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                	<a href="https://themeforest.net/checkout/from_item/28449333?license=regular" target="_blank"><img src="assets/images/elementor/elementor-10.jpg" alt="Images"></a>
+                                </div>
+                            </div>
+                            <div class="masonary-item">
+                                <div class="thumbnail">
+                                    <img src="assets/images/elementor/elementor-11.jpg" alt="Images">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Trydo Elementor Item  -->
+
+
+                <!-- Start Testimonial Area  -->
+                <div class="testimonial-area bg_color--7 pt--120 pb--150 pt_md--80 pb_md--110 pt_sm--80 pb_sm--110">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-title text-center text-white mb--30">
+                                    <h2 class="title theme-gradient">Our Customer feedback</h2>
+                                    <p>Our Fantastic Envato Customers Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div
+                                    class="mt--30 mt_sm--5 mt_md--5 testimonial-activation rn-slick-dot slick-gutter-15">
+                                    <!-- Start Single Testimonial  -->
+                                    <div class="single-testimonial">
+                                        <div class="testimonial">
+                                            <div class="inner">
+                                                <div class="inner-top">
+                                                    <div class="thumbnail">
+                                                        <img src="assets/images/icons/download.png"
+                                                            alt="Download Images">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="title">mindcycle001</h4>
+                                                        <p>@mindcycle001</p>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Customer Support</h5>
+                                                    <p>Simply amazing support... TOP Seller in terms of support...
+                                                        Thanks a
+                                                        lot... I will keep buying your products... amazing work... bug
+                                                        free...
+                                                        thanks a lot...</p>
+                                                    <div class="rating">
+                                                        <img src="assets/images/icons/rating.png" alt="Rating Images">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Testimonial  -->
+
+                                    <!-- Start Single Testimonial  -->
+                                    <div class="single-testimonial">
+                                        <div class="testimonial">
+                                            <div class="inner">
+                                                <div class="inner-top">
+                                                    <div class="thumbnail">
+                                                        <img src="assets/images/icons/download.png"
+                                                            alt="Download Images">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="title">The4</h4>
+                                                        <p>@The4</p>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Design Quality</h5>
+                                                    <p>The product is of good quality and easy to use, We are also the
+                                                        author on Envato and our requirement is very high, Affordable
+                                                        and
+                                                        excellent work...</p>
+                                                    <div class="rating">
+                                                        <img src="assets/images/icons/rating.png" alt="Rating Images">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Testimonial  -->
+
+                                    <!-- Start Single Testimonial  -->
+                                    <div class="single-testimonial">
+                                        <div class="testimonial">
+                                            <div class="inner">
+                                                <div class="inner-top">
+                                                    <div class="thumbnail">
+                                                        <img src="assets/images/icons/download.png"
+                                                            alt="Download Images">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="title">wimm-x</h4>
+                                                        <p>@wimm-x</p>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Design Quality</h5>
+                                                    <p>The configuration of the contact form was problematic, but the
+                                                        support of
+                                                        the Rainbow team helped a lot. That convinced me! Thanks!</p>
+                                                    <div class="rating">
+                                                        <img src="assets/images/icons/rating.png" alt="Rating Images">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Testimonial  -->
+
+                                    <!-- Start Single Testimonial  -->
+                                    <div class="single-testimonial">
+                                        <div class="testimonial">
+                                            <div class="inner">
+                                                <div class="inner-top">
+                                                    <div class="thumbnail">
+                                                        <img src="assets/images/icons/download.png"
+                                                            alt="Download Images">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="title">Cloudcapped</h4>
+                                                        <p>@Cloudcapped</p>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Customizability</h5>
+                                                    <p>Excellent design template and easy to customize if you know
+                                                        React. Good
+                                                        value.</p>
+                                                    <div class="rating">
+                                                        <img src="assets/images/icons/rating.png" alt="Rating Images">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Testimonial  -->
+
+                                    <!-- Start Single Testimonial  -->
+                                    <div class="single-testimonial">
+                                        <div class="testimonial">
+                                            <div class="inner">
+                                                <div class="inner-top">
+                                                    <div class="thumbnail">
+                                                        <img src="assets/images/icons/download.png"
+                                                            alt="Download Images">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="title">piotrgrz</h4>
+                                                        <p>@piotrgrz</p>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Customer Support</h5>
+                                                    <p>Perfectly support. Well deserved 5 star for code and design
+                                                        quality.</p>
+                                                    <div class="rating">
+                                                        <img src="assets/images/icons/rating.png" alt="Rating Images">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Testimonial  -->
+
+                                    <!-- Start Single Testimonial  -->
+                                    <div class="single-testimonial">
+                                        <div class="testimonial">
+                                            <div class="inner">
+                                                <div class="inner-top">
+                                                    <div class="thumbnail">
+                                                        <img src="assets/images/icons/download.png"
+                                                            alt="Download Images">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="title">xBoot</h4>
+                                                        <p>@xBoot</p>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Customer Support</h5>
+                                                    <p>The best customer support I've ever received on Envato. The
+                                                        author is absolutely great and he's always so fast to answer...
+                                                    </p>
+                                                    <div class="rating">
+                                                        <img src="assets/images/icons/rating.png" alt="Rating Images">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Testimonial  -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Testimonial Area  -->
+
+
+
+                <!-- Start Accordion Area  -->
+                <div class="rn-accordion-area bg_color--1 ptb--120">
+                    <div class="container">
+                        <div class="row row--35">
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="wrapper">
+                                    <div class="section-title text-left mb--30">
+                                        <h2 class="title">Have a <span class="theme-color">Question?</span>
+                                        </h2>
+                                    </div>
+                                    <div class="rn-accordion">
+                                        <div id="accordion">
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingZero">
+                                                    <a href="index.html#" class="btn" data-toggle="collapse"
+                                                        data-target="#collapseZero" aria-controls="collapseZero" aria-expanded="true"> 1.
+                                                        What is TryDo ? How does it work?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseZero" class="collapse show" aria-labelledby="headingZero"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">Welcome to TryDO Creative Agency Multi
+                                                        Purpose
+                                                        WordPress Theme. It works too much faster loading speed and you
+                                                        can
+                                                        works too much comfortability. Trydo create your website so much
+                                                        faster, use to use and Well Documented Codes for your
+                                                        customization.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingOne">
+                                                    <a href="index.html#" class="btn" data-toggle="collapse"
+                                                        data-target="#collapseOne" aria-controls="collapseOne"> 2. Is
+                                                        TryDo theme installation easy?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">
+                                                        <strong>Yes</strong>, we have one-click demo installation
+                                                        feature,
+                                                        therefore installation is very easy. You can see our video
+                                                        installation tutorial <a href="index.html#">here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingTwo">
+                                                    <a href="index.html#" class="btn collapsed" data-toggle="collapse"
+                                                        data-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo"> 3. Can I change demo page layouts
+                                                        like
+                                                        delete sections or add new ones?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">
+                                                        <strong>Yes</strong>, we use drag and drop page builder,
+                                                        therefore
+                                                        you can add, edit, duplicate our remove any section or element
+                                                        you
+                                                        want
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingThree">
+                                                    <a href="index.html#" class="btn collapsed" data-toggle="collapse"
+                                                        data-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">4. After TryDo purchase, will I
+                                                        have
+                                                        all
+                                                        the demos and its pages?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">
+                                                        <strong>Yes</strong>, you will be able to install any of our
+                                                        demos
+                                                        and will have all our pages
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingFour">
+                                                    <a href="index.html#" class="btn collapsed" data-toggle="collapse"
+                                                        data-target="#collapseFour" aria-expanded="false"
+                                                        aria-controls="collapseFour"> 5. Can I mix up different demos?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">
+                                                        <strong>Yes</strong>, you can install any demo that you want,
+                                                        and
+                                                        then import other demo homepage content
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingFive">
+                                                    <a href="index.html#" class="btn collapsed" data-toggle="collapse"
+                                                        data-target="#collapseFive" aria-expanded="false"
+                                                        aria-controls="collapseFive"> 6. Can I get update regularly and
+                                                        For
+                                                        how
+                                                        long do I get updates?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">
+                                                        <strong>Yes</strong>, We will get update the Trydo. And you can
+                                                        get
+                                                        it any time. Next time we will comes with more feature. You can
+                                                        be
+                                                        get update for <strong>life times</strong>. Our dedicated team
+                                                        works
+                                                        for update.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+                                            <!-- Start Single Card  -->
+                                            <div class="rn-card">
+                                                <div class="rn-card-header" id="headingSix">
+                                                    <a href="index.html#" class="btn collapsed" data-toggle="collapse"
+                                                        data-target="#collapseSix" aria-expanded="false"
+                                                        aria-controls="collapseSix"> 7. How can I get the customer
+                                                        support?
+                                                    </a>
+                                                </div>
+                                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                                    data-parent="#accordion">
+                                                    <div class="rn-card-body">
+                                                        After purchasing the product need you any support you can be
+                                                        share
+                                                        with us with create support ticket here: <a
+                                                            href="https://support.rainbowit.net/support/login">https://support.rainbowit.net/support/login</a>
+                                                        Our support team will contact with you soon.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Card  -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mt_md--40 mt_sm--40">
+
+                                <div class="card-box text-left">
+                                    <div class="service">
+                                        <div class="icon"><i data-feather="book"></i></div>
+                                        <div class="content">
+                                            <h3 class="title">Online Documentation</h3>
+                                            <p>Well organized and up to date</p>
+                                            <a target="_blank" href="http://rainbowit.net/docs/trydo-wp"
+                                                class=" rbt-button  rn-button-style--2 btn_border btn-size-sm btn-theme"><span
+                                                    class="button-text">Online Documentation</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-box text-left mt--40 support">
+                                    <div class="service">
+                                        <div class="icon"><i data-feather="headphones"></i></div>
+                                        <div class="content">
+                                            <h3 class="title">Dedicated Support</h3>
+                                            <p>Need support ? Submit a ticket. We will be happy to assist you.</p>
+                                            <a target="_blank" href="https://support.rainbowit.net/support/login"
+                                                class=" rbt-button btn_border rn-button-style--2 btn-size-sm btn-theme"><span
+                                                    class="button-text">Get Support</span></a>
+                                            <ul class="liststyle">
+                                                <li><span>Support Time:</span> Monday – Friday</li>
+                                                <li><span>Response Time:</span> Maximum 24 hours</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Accordion Area  -->
+
+
+
+
+
+
+                <!-- Start Call To Action Area  -->
+                <div class="call-to-action-wrapper call-to-action text-white-wrapper  ptb--120 position-relative">
+                    <div id="particles-js" class="particles-js"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="inner text-center"><span>PURCHASE THE TRYDO AND MAKE YOUR SITE SUPER FASTER
+                                        AND EASY.</span>
+                                    <h2>Let's go to Purchase</h2>
+                                    <a class="rn-button-style--2 btn_solid" href="https://themeforest.net/checkout/from_item/28449333?license=regular" target="_blank">PURCHASE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Call To Action Area  -->
+
+                <footer>
+
+                </footer>
+
+            </div>
+            <!-- End Main Demo Area  -->
+        </main>
+        <!-- End Page Wrapper  -->
+    </div>
+
+    <!-- JS
+============================================ -->
+    <!-- Modernizer JS -->
+    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/stellar.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <script src="assets/js/vendor/masonry.js"></script>
+    <script src="assets/js/plugins/plugins.min.js"></script>
+    <script src="assets/js/vendor/feature.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        particlesJS('particles-js',
+
+            {
+                "particles": {
+                    "number": {
+                        "value": 50,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 4
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 4,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                    "hide_card": false,
+                    "background_color": "#b61924",
+                    "background_image": "",
+                    "background_position": "50% 50%",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover"
+                }
+            }
+
+        );
+    </script>
+
+
+
 
 </body>
+
 </html>
